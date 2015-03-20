@@ -18,7 +18,7 @@
         topSpacing: 0,
         className: 'shrink'
     });
-	
+
 	//create menu for tablet/mobile
 	$(".menu-box .navigation").clone(false).find("ul,li").removeAttr("id").remove(".sub-menu").appendTo($(".mobile-menu"));
 	$(".mobile-menu .sub-menu").remove();
@@ -27,7 +27,7 @@
 			$('.mobile-menu').collapse('hide');
 		})
 	})
-	
+
 	//toggle menu
 	$('.menu-btn').on('click', function () {
 		$('.mobile-menu').collapse({
@@ -37,7 +37,7 @@
 	//menu for tablet/mobile scrolling
 	$('.mobile-menu a').bind('click', function (event) {
 		var $anchor = $(this);
-	
+
 		$('html, body').stop().animate({
 			scrollTop: $($anchor.attr('href')).offset().top -92
 		}, 800, 'linear');
@@ -70,7 +70,7 @@
         stopOnHover: true,
         transitionStyle: "fade"
     });
-	
+
     // script prettyphoto
     $(document).ready(function () {
         $("a[data-rel^='prettyPhoto']").prettyPhoto({
@@ -107,7 +107,7 @@
     //portfolio ajax setting
     $(document).ready(function () {
         $('.port-ajax').click(function () {
-			
+
             var toLoad = $(this).attr('data-link') + ' .worksajax > *';
             $('.worksajax').slideUp('slow', loadContent);
 
@@ -155,23 +155,23 @@
         $(".port-filter a").removeClass("active");
         $(this).addClass("active");
     });
-	
+
 	//background ticker
     $('.big-ticker:has(>div:eq(1))').list_ticker({
         speed: 5000,
         effect: 'fade'
     });
-	
+
 	//add class on touch device
 	if (Modernizr.touch) {
 			$('body').addClass('no-para');
-			
+
 	}
-	
+
     //google map load after all page finish
     $(window).bind("load", function () {
         $('#map_canvas').gmap({
-            'center': '-6.94010,107.62575',
+            'center': '55.66767,12.55794',
             'zoom': 15,
             scrollwheel: false,
             'disableDefaultUI': false,
@@ -184,7 +184,7 @@
             }],
             'callback': function () {
                 var self = this;
-                self.addMarker({
+                var marker = self.addMarker({
                     'position': this.get('map').getCenter(),
                     icon: 'images/office-building.png',
                 }).click(function () {
@@ -192,6 +192,12 @@
                         'content': $('.map-content').html()
                     }, this);
                 });
+
+                setTimeout(function() {
+                  self.openInfoWindow({
+                      'content': $('.map-content').html()
+                  }, marker);
+                }, 3000)
             }
         });
     }).load();
