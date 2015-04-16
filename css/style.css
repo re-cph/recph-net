@@ -428,13 +428,13 @@ ul, ol {
 	background-attachment: scroll;
 }
 .bg1 .para-img{
-	background-image: url("../images/bg/1.jpg");
+  background-image: url("../images/bg/koed-og-flaesk.jpg");
 }
 .bg2 .para-img{
-	background-image: url("../images/bg/2.jpg");
+  background-image: url("../images/bg/grafitti.jpg");
 }
 .bg3 .para-img{
-	background-image: url("../images/bg/3.jpg");
+  background-image: url("../images/bg/3.jpg");
 }
 .big-text {
 	color: #ffffff;
