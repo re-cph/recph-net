@@ -37,8 +37,13 @@ $screen-lg-min: 1200px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
+@mixin media-min($device) {
     @media (min-width: $device) {
+        @content;
+    }
+}
+@mixin media-max($device) {
+    @media (max-width: $device) {
         @content;
     }
 }
