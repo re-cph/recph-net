@@ -19,3 +19,11 @@
 
 .bg2 .para-img
   background-image: url("../images/bg/grafitti.jpg")
+
+span.break-mobile-only
+  display: block
+  height: 14px
+
+@include media-query($screen-md-min)
+  span.break-mobile-only
+    display: none
