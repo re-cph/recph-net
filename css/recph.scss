@@ -26,8 +26,9 @@
 
 // $on-palm:          600px;
 // $on-laptop:        800px;
-
-
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -37,12 +38,10 @@
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media (min-width: $device) {
         @content;
     }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-  "site"
-;
+@import "site";
