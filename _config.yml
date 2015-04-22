@@ -17,4 +17,5 @@ sass:
   style: :compressed
   sass_dir: _sass
 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
