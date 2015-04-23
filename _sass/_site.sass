@@ -27,3 +27,17 @@ span.break-mobile-only
 @include media-min($screen-md-min)
   span.break-mobile-only
     display: none
+
+#resDebug
+  position: fixed
+  left: 0
+  right: 0
+  height: 5px
+  z-index: 1000
+  background: red
+  @include media-max($screen-lg-min)
+    background: green
+  @include media-max($screen-md-min)
+    background: yellow
+  @include media-max($screen-sm-min)
+    background: orange
