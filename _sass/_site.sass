@@ -28,6 +28,14 @@ span.break-mobile-only
   span.break-mobile-only
     display: none
 
+@include media-max($screen-sm-min)
+  .port-item
+    width: 100%
+    .port-ajax
+      max-width: 360px
+      margin-left: auto
+      margin-right: auto
+
 #resDebug
   position: fixed
   left: 0
