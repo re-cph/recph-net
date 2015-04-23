@@ -104,36 +104,36 @@
         }
     });
 
-    //portfolio ajax setting
-    $(document).ready(function () {
-        $('.port-ajax').click(function () {
+    // //portfolio ajax setting
+    // $(document).ready(function () {
+    //     $('.port-ajax').click(function () {
 
-            var toLoad = $(this).attr('data-link') + ' .worksajax > *';
-            $('.worksajax').slideUp('slow', loadContent);
+    //         var toLoad = $(this).attr('data-link') + ' .worksajax > *';
+    //         $('.worksajax').slideUp('slow', loadContent);
 
-            function loadContent() {
-                $('.worksajax').load(toLoad, '', showNewContent)
-            }
+    //         function loadContent() {
+    //             $('.worksajax').load(toLoad, '', showNewContent)
+    //         }
 
-            function showNewContent() {
-                $.getScript("js/portfolio.js");
-                $('.worksajax').slideDown('slow');
-            }
-            return false;
-        });
+    //         function showNewContent() {
+    //             $.getScript("js/portfolio.js");
+    //             $('.worksajax').slideDown('slow');
+    //         }
+    //         return false;
+    //     });
 
-    });
-    //portfolio scrolling
-    $(function () {
-        $('.port-ajax').bind('click', function (event) {
-            var $anchor = $('#work-ajax');
+    // });
+    // //portfolio scrolling
+    // $(function () {
+    //     $('.port-ajax').bind('click', function (event) {
+    //         var $anchor = $('#work-ajax');
 
-            $('html, body').stop().animate({
-                scrollTop: $($anchor).offset().top - 93
-            }, 1000, 'linear');
-            event.preventDefault();
-        });
-    });
+    //         $('html, body').stop().animate({
+    //             scrollTop: $($anchor).offset().top - 93
+    //         }, 1000, 'linear');
+    //         event.preventDefault();
+    //     });
+    // });
 
     //isotope setting(portfolio)
     var $container = $('.portfolio-body');

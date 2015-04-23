@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-    //portfolio close button 
+    //portfolio close button
     $('.close').click(function () {
         $('.worksajax').slideUp('slow', function () {
             $('.worksajax .content').remove();
@@ -22,7 +22,7 @@
     // portfolio Video responsive
     $(".worksajax .video").fitVids();
 
-    // script prettyphoto 
+    // script prettyphoto
     $(document).ready(function () {
         $("a[data-rel^='prettyPhoto']").prettyPhoto({
             social_tools: false,
