@@ -10,8 +10,32 @@
     padding: 20px
   p
     margin: 0
-    padding: 20px
-    height: 200px
+    padding: 0 20px 20px 20px
+
+@include media-max($screen-lg-min)
+  //Green
+  .caption-box 
+    h3 
+      height: 140px
+    p
+      height: 90px
+@include media-max($screen-md-min)
+  //Yellow
+  .caption-box 
+    h3 
+      height: 140px
+    p
+      height: 90px
+@include media-max($screen-sm-min)
+  //Orange
+  .caption-box 
+    h3 
+      height: 115px
+      font-size: 25px
+      margin-top: 20px
+    p
+      margin-bottom: 20px
+      height: 130px
 
 .bg1 .para-img
   background-image: url("../images/bg/koed-og-flaesk.jpg")
@@ -28,13 +52,6 @@ span.break-mobile-only
     display: none
 
 @include media-max($screen-sm-min)
-  .caption-box 
-    h3 
-      font-size: 25px
-      margin-top: 20px
-    p
-      margin-bottom: 20px
-
   .port-item
     width: 100%
     .port-ajax
