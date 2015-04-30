@@ -8,6 +8,7 @@
   h3
     margin: 0
     padding: 20px
+    text-transform: none
   p
     margin: 0
     padding: 0 20px 20px 20px
@@ -52,8 +53,15 @@ span.break-mobile-only
     display: none
 
 @include media-max($screen-sm-min)
+  .caption-box
+    h3
+      font-size: 25px
+      margin-top: 20px
+    p
+      margin-bottom: 20px
+
   .port-item
-    width: 100%
+    // width: 100%
     .port-ajax
       max-width: 360px
       margin-left: auto
