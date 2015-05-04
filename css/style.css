@@ -27,7 +27,7 @@ MEDIA QUERIES
 
 ------------------------------------------------------------*/
 
-.logo{ 
+.logo{
     margin-top:28px;
     width: 80px;
     }
@@ -66,7 +66,8 @@ a:focus {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
-	font-family: 'Cinzel', serif;
+  /*font-family: 'Cinzel', serif;*/
+	font-family: 'Raleway', sans-serif;
 	color: #000;
 }
 iframe {
