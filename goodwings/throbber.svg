@@ -33,12 +33,7 @@ svg .fill{fill:#787878;stroke:none}svg .stroke{fill:none;stroke:#787878;stroke-w
               <path class="plane fill rot0" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"></path>
             </g>
             <path class="stroke contrail rot0" d="M 130 18 Q 175 20, 200 48">
-              <animate attributeName="d" attributeType="XML" dur="10s"  begin="1s"
-                       values="M 130 18 Q 130 20, 130 18;
-                               M 130 18 Q 130 20, 130 18;
-                               M 130 18 Q 156 20 175 30;
-                               M 130 18 Q 175 20, 200 48;
-                               M 130 18 Q 175 20, 200 48;"
+              <animate attributeName="d" attributeType="XML" dur="10s"  begin="1s" values="M 130 18 Q 130 20, 130 18;  M 130 18 Q 130 20, 130 18;  M 130 18 Q 156 20 175 30;  M 130 18 Q 175 20, 200 48;  M 130 18 Q 175 20, 200 48;"
                       keytimes="0.0,0.65,0.7,0.85,1"/>
             </path>
 
@@ -46,12 +41,7 @@ svg .fill{fill:#787878;stroke:none}svg .stroke{fill:none;stroke:#787878;stroke-w
               <path class="plane fill rot180" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"></path>
             </g>
             <path class="stroke contrail rot180" d="M 130 18 Q 175 20, 200 48">
-              <animate attributeName="d" attributeType="XML" dur="10s"  begin="1s"
-                       values="M 130 18 Q 130 20, 130 18;
-                               M 130 18 Q 130 20, 130 18;
-                               M 130 18 Q 156 20 175 30;
-                               M 130 18 Q 175 20, 200 48;
-                               M 130 18 Q 175 20, 200 48;"
+              <animate attributeName="d" attributeType="XML" dur="10s"  begin="1s" values="M 130 18 Q 130 20, 130 18;  M 130 18 Q 130 20, 130 18;  M 130 18 Q 156 20 175 30;  M 130 18 Q 175 20, 200 48;  M 130 18 Q 175 20, 200 48;"
                       keytimes="0.0,0.65,0.7,0.85,1"/>
             </path>
           </g>
@@ -61,24 +51,14 @@ svg .fill{fill:#787878;stroke:none}svg .stroke{fill:none;stroke:#787878;stroke-w
               <path class="plane fill rot90" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"></path>
             </g>
             <path class="stroke contrail rot90" d="M 130 18 Q 175 20, 200 48">
-              <animate attributeName="d" attributeType="XML" dur="8s"  begin="4.3s"
-                       values="M 130 18 Q 130 20, 130 18;
-                               M 130 18 Q 130 20, 130 18;
-                               M 130 18 Q 156 20 175 30;
-                               M 130 18 Q 175 20, 200 48;
-                               M 130 18 Q 175 20, 200 48;"
+              <animate attributeName="d" attributeType="XML" dur="8s"  begin="4.3s" values="M 130 18 Q 130 20, 130 18;  M 130 18 Q 130 20, 130 18;  M 130 18 Q 156 20 175 30;  M 130 18 Q 175 20, 200 48;  M 130 18 Q 175 20, 200 48;"
                       keytimes="0.0,0.65,0.7,0.85,1"/>
             </path>
             <g transform="translate(5,0)">
               <path class="plane fill rot270" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"></path>
             </g>
             <path class="stroke contrail rot270" d="M 130 18 Q 175 20, 200 48">
-              <animate attributeName="d" attributeType="XML" dur="8s"  begin="4.3s"
-                       values="M 130 18 Q 130 20, 130 18;
-                               M 130 18 Q 130 20, 130 18;
-                               M 130 18 Q 156 20 175 30;
-                               M 130 18 Q 175 20, 200 48;
-                               M 130 18 Q 175 20, 200 48;"
+              <animate attributeName="d" attributeType="XML" dur="8s"  begin="4.3s" values="M 130 18 Q 130 20, 130 18;  M 130 18 Q 130 20, 130 18;  M 130 18 Q 156 20 175 30;  M 130 18 Q 175 20, 200 48;  M 130 18 Q 175 20, 200 48;"
                       keytimes="0.0,0.65,0.7,0.85,1"/>
             </path>
           </g>
