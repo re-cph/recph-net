@@ -1,44 +1,114 @@
-<svg width="252" height="252" xmlns="http://www.w3.org/2000/svg">
-  <title>Goodwings™ Throbber</title>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="252" height="252" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <desc>A throbber for Goodwings</desc>
+  <title>Goodwings Throbber</title>
   <style>
     /* <![CDATA[ */
-svg .fill{fill:#787878;stroke:none}svg .stroke{fill:none;stroke:#787878;stroke-width:12px}svg #bling,svg line.stroke{opacity:0;stroke-width:4px}svg .contrail,svg .globeLines{stroke-width:3px}svg #bling{stroke-dasharray:17px 40px;stroke-width:20px}svg .rot0{transform:rotate(0)}svg .rot90{transform:rotate(90deg)}svg .rot180{transform:rotate(180deg)}svg .rot270{transform:rotate(270deg)}svg .plane{transform:translate(0,5px)}svg .contrail{opacity:.5}svg .heart{stroke-width:6;transform-origin:50% 50%;transform:translate(101px,101px) scale(2)}@keyframes revealGlobe{0%{animation-timing-function:ease-in-out;transform:rotate(45deg) scale(.2)}100%{animation-timing-function:ease-in-out;transform:rotate(0) scale(1)}}svg .globe{-webkit-animation-timing-function:linear;animation:revealGlobe .9s}@keyframes hideLines{0%{opacity:0}0.01%{opacity:1}22%{animation-timing-function:linear;stroke-width:4;transform:scale(1)}24.99%{animation-timing-function:linear;stroke-width:10;opacity:1;transform:scale(0)}25%{animation-timing-function:linear;stroke-width:10;opacity:0;transform:scale(0)}100%{transform:scale(0)}}svg line{-webkit-animation-timing-function:linear;animation:hideLines 10s}@keyframes curveA{0%{d:path("M70 54Q126 15, 180 54")}20%{d:path("M55 65 Q126 100 195 65")}80%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;d:path("M55 65 Q126 100 195 65")}100%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;d:path("M70 54 Q126 15, 180 54")}}@keyframes curveB{0%{d:path("M40 126 Q126" "126, 212 126")}20%{d:path("M40 110 Q126 55, 215 110")}80%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;d:path("M40 110 Q126 55, 215 110")}100%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;d:path("M70 54 Q126 15, 180 54")}}svg .curveA{-webkit-animation-timing-function:ease-out;animation:curveA 2s;animation-delay:.75s}svg .curveB{-webkit-animation-timing-function:ease-out;animation:curveB 2s;animation-delay:.75s}@keyframes bling{0%{opacity:0;transform:scale(0)}25%{-webkit-animation-timing-function:step;animation-timing-function:step;opacity:1;stroke-width:20px;transform:scale(0)}26%{opacity:.3;stroke-width:20px;transform:scale(.25)}27%{opacity:0;stroke-width:10px;transform:scale(.35)}}svg #bling{-webkit-animation-timing-function:linear;animation:bling 10s}@keyframes revealHeart{0%{animation-timing-function:linear;transform:scale(0)}88%{transform:scale(0)}98%{transform:scale(1.1)}100%{animation-timing-function:linear;transform:scale(1)}}svg .revealHeart{-webkit-animation-timing-function:linear;animation:revealHeart 3.3s}@keyframes contrail{45%{opacity:.5;-webkit-animation-timing-function:linear;animation-timing-function:linear;d:path("M 130 18 Q 130 20, 130 18")}60%{-webkit-animation-timing-function:linear;animation-timing-function:linear;d:path("M 130 18 Q 156 20 175 30")}75%{-webkit-animation-timing-function:linear;animation-timing-function:linear;d:path("M 130 18 Q 175 20, 200 48")}}svg .planesFirst .contrail{-webkit-animation-timing-function:linear;animation:contrail 10s}svg .planesSecond .contrail{-webkit-animation-timing-function:step;animation:contrail 8s;animation-delay:3s}@keyframes planesReveal{0%{opacity:0}39.99%{opacity:0;transform:scale(.795)}40%{opacity:1;transform:scale(.795)}45%{opacity:1;transform:scale(1)}}@keyframes planesRevealSecond{0%{opacity:0}69.99%{opacity:0;transform:scale(.795)}70%{opacity:1;transform:scale(.795)}75%{opacity:1;transform:scale(1)}}svg .planesFirst{animation:planesReveal 10s}svg .planesSecond{animation:planesRevealSecond 10s}@keyframes planesSpeedUp{0%{-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;transform:rotate(360deg)}20%,5%{transform:rotate(288deg)}25%,40%{transform:rotate(216deg)}45%,60%{transform:rotate(144deg)}65%,80%{transform:rotate(72deg)}85%{transform:rotate(0)}100%{-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;transform:rotate(0)}}svg .allPlanesSpeedUp{animation:planesSpeedUp 10s infinite;animation-delay:6.5s}@keyframes counter{0%{background:red}50%{background:#00f}}.counter{animation:counter 2s steps(1) infinite}@keyframes heartbeat{0%{transform-origin:126px 126px;transform:scale(1.9) translate(101px,101px)}15%{transform:scale(2.2) translate(101px,101px)}30%,65%,99.99%{transform:scale(1.9) translate(101px,101px)}45%{transform:scale(2) translate(101px,101px)}100%{transform-origin:126px 126px;transform:scale(1.9) translate(101px,101px)}}svg .heart{-webkit-animation-timing-function:ease-in-out;animation:heartbeat 2s infinite;animation-delay:6.5s}@keyframes planesRotate{0%{animation-timing-function:linear;transform:rotate(20deg)}99.99%{transform:rotate(-340deg)}100%{animation-timing-function:linear;transform:rotate(20deg)}}svg .allPlanes{-webkit-animation-timing-function:linear;animation:planesRotate 8s infinite}
+svg .fill{fill:#787878;stroke:none}svg .stroke{fill:none;stroke:#787878;stroke-width:12px}svg line.stroke{stroke-width:4px;transform:scale(1)}svg .globeCross{opacity:0}svg .contrail,svg .globeLines{stroke-width:3px}svg #bling{opacity:0;stroke-dasharray:17px 40px;stroke-width:20px}svg .plane{transform:translate(-126px,-126px)}svg .rot0{transform:rotate(0) translate(-126px,-126px)}svg .rot90{transform:rotate(90deg) translate(-126px,-126px)}svg .rot180{transform:rotate(180deg) translate(-126px,-126px)}svg .rot270{transform:rotate(270deg) translate(-126px,-126px)}svg .contrail{opacity:.5}svg .heart{stroke-width:6;transform:scale(2) translate(-28.5px,-23.75px)}@keyframes revealGlobe{0%{animation-timing-function:ease-in-out;transform:rotate(45deg) scale(.2) translate(-126px,-126px)}100%{animation-timing-function:ease-in-out;transform:rotate(0) scale(1) translate(-126px,-126px)}}svg .globe{-webkit-animation-timing-function:linear;animation:revealGlobe .9s}@keyframes hideCross{0%{opacity:1;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;transform:rotate(45deg) scale(.2) translate(-126px,-126px)}9%{-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;transform:rotate(0) scale(1) translate(-126px,-126px)}22%{-webkit-animation-timing-function:linear;animation-timing-function:linear;stroke-width:4;transform:rotate(0) scale(1) translate(-126px,-126px)}24.99%{stroke-width:10;opacity:1;transform:rotate(0) scale(0) translate(-126px,-126px)}25%{-webkit-animation-timing-function:linear;animation-timing-function:linear;stroke-width:10;opacity:0;transform:rotate(0) scale(0) translate(-126px,-126px)}}svg .globeCross{-webkit-animation-timing-function:linear;animation:hideCross 10s}@keyframes bling{0%{opacity:0;transform:scale(0) translate(-90px,-90px)}25%{-webkit-animation-timing-function:step;animation-timing-function:step;opacity:1;stroke-width:20px;transform:scale(0) translate(-90px,-90px)}26%{opacity:.3;stroke-width:20px;transform:scale(.25) translate(-90px,-90px)}27%{opacity:0;stroke-width:10px;transform:scale(.35) translate(-90px,-90px)}}svg #bling{-webkit-animation-timing-function:linear;animation:bling 10s}@keyframes revealHeart{0%{animation-timing-function:linear;transform:scale(0)}88%{transform:scale(0)}98%{transform:scale(1.1)}100%{animation-timing-function:linear;transform:scale(1)}}svg .revealHeart{-webkit-animation-timing-function:linear;animation:revealHeart 3.3s}@keyframes planesReveal{0%{opacity:0}39.99%{opacity:0;transform:scale(.795)}40%{opacity:1;transform:scale(.795)}45%{opacity:1;transform:scale(1)}}@keyframes planesRevealSecond{0%{opacity:0}69.99%{opacity:0;transform:scale(.795)}70%{opacity:1;transform:scale(.795)}75%{opacity:1;transform:scale(1)}}svg .planesFirst{animation:planesReveal 10s}svg .planesSecond{animation:planesRevealSecond 10s}@keyframes planesSpeedUp{0%{-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;transform:rotate(360deg)}20%,5%{transform:rotate(288deg)}25%,40%{transform:rotate(216deg)}45%,60%{transform:rotate(144deg)}65%,80%{transform:rotate(72deg)}85%{transform:rotate(0)}100%{-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;transform:rotate(0)}}svg .allPlanesSpeedUp{animation:planesSpeedUp 10s infinite;animation-delay:6.5s}@keyframes counter{0%{background:red}50%{background:#00f}}.counter{animation:counter 2s steps(1) infinite}@keyframes heartbeat{0%,100%,30%,65%,99.99%{transform:scale(1.9) translate(-28.5px,-23.75px)}15%{transform:scale(2.2) translate(-28.5px,-23.75px)}45%{transform:scale(2) translate(-28.5px,-23.75px)}}svg .heart{-webkit-animation-timing-function:ease-in-out;animation:heartbeat 2s infinite;animation-delay:6.5s}@keyframes planesRotate{0%{animation-timing-function:linear;transform:rotate(20deg)}99.99%{transform:rotate(-340deg)}100%{animation-timing-function:linear;transform:rotate(20deg)}}svg .allPlanesRotate{-webkit-animation-timing-function:linear;animation:planesRotate 8s infinite}
     /* ]]> */
   </style>
   <defs>
     <symbol id="plane">
       <path class="plane fill" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"></path>
     </symbol>
+    <symbol id="cB">
+
+    </symbol>
   </defs>
-  <g class="throbber">
-    <g class="revealHeart" transform-origin="126px 126px">
-      <path class="heart stroke" d=" M 25,50 L 5,30  C 5,30 -5,20 5,10  C 15,0 25,10 25,10  C 25,10 35,0 45,10  C 55,20 45,30 45,30  C 45,30 25,50 25,50  z" transform-origin="126px 126px" />
-    </g>
-    <g class="allPlanesSpeedUp" transform-origin="126 126">
-      <g class="allPlanes" transform-origin="126 126">
-        <g class="planesFirst" transform-origin="126 126">
-          <use href="#plane" class="rot0" transform-origin="126 126" />
-          <path class="stroke contrail rot0" transform-origin="126 126" d="M 130 18 Q 175 20, 200 48" />
-          <use href="#plane" class="rot180" transform-origin="126 126" />
-          <path class="stroke contrail rot180" transform-origin="126 126" d="M 130 18 Q 175 20, 200 48" />
+  <g transform="translate(126, 126)">
+    <g class="throbber" x="-126" y="-126">
+
+      <g transform="translate(8, 0)">
+        <g class="revealHeart">
+          <path class="heart stroke" x="-28.5" y="-23.75" d=" M 25,50 L 5,30  C 5,30 -5,20 5,10  C 15,0 25,10 25,10  C 25,10 35,0 45,10  C 55,20 45,30 45,30  C 45,30 25,50 25,50 z"/>
         </g>
-        <g class="planesSecond" transform-origin="126 126">
-          <use href="#plane" class="rot90" transform-origin="126 126"/>
-          <path class="stroke contrail rot90" transform-origin="126 126" d="M 130 18 Q 175 20, 200 48"/>
-          <use href="#plane" class="rot270" transform-origin="126 126"/>
-          <path class="stroke contrail rot270" transform-origin="126 126" d="M 130 18 Q 175 20, 200 48"/>
+      </g>
+
+      <g class="allPlanesSpeedUp">
+        <g class="allPlanesRotate">
+          <g class="planesFirst">
+            <g transform="translate(0,5)">
+              <path class="plane fill rot0" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"></path>
+            </g>
+            <path class="stroke contrail rot0" d="M 130 18 Q 175 20, 200 48">
+              <animate attributeName="d" attributeType="XML" dur="10s"  begin="1s"
+                       values="M 130 18 Q 130 20, 130 18;
+                               M 130 18 Q 130 20, 130 18;
+                               M 130 18 Q 156 20 175 30;
+                               M 130 18 Q 175 20, 200 48;
+                               M 130 18 Q 175 20, 200 48;"
+                      keytimes="0.0,0.65,0.7,0.85,1"/>
+            </path>
+
+            <g transform="translate(0,-5)">
+              <path class="plane fill rot180" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"></path>
+            </g>
+            <path class="stroke contrail rot180" d="M 130 18 Q 175 20, 200 48">
+              <animate attributeName="d" attributeType="XML" dur="10s"  begin="1s"
+                       values="M 130 18 Q 130 20, 130 18;
+                               M 130 18 Q 130 20, 130 18;
+                               M 130 18 Q 156 20 175 30;
+                               M 130 18 Q 175 20, 200 48;
+                               M 130 18 Q 175 20, 200 48;"
+                      keytimes="0.0,0.65,0.7,0.85,1"/>
+            </path>
+          </g>
+
+          <g class="planesSecond">
+            <g transform="translate(-5,0)">
+              <path class="plane fill rot90" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"></path>
+            </g>
+            <path class="stroke contrail rot90" d="M 130 18 Q 175 20, 200 48">
+              <animate attributeName="d" attributeType="XML" dur="8s"  begin="4.3s"
+                       values="M 130 18 Q 130 20, 130 18;
+                               M 130 18 Q 130 20, 130 18;
+                               M 130 18 Q 156 20 175 30;
+                               M 130 18 Q 175 20, 200 48;
+                               M 130 18 Q 175 20, 200 48;"
+                      keytimes="0.0,0.65,0.7,0.85,1"/>
+            </path>
+            <g transform="translate(5,0)">
+              <path class="plane fill rot270" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"></path>
+            </g>
+            <path class="stroke contrail rot270" d="M 130 18 Q 175 20, 200 48">
+              <animate attributeName="d" attributeType="XML" dur="8s"  begin="4.3s"
+                       values="M 130 18 Q 130 20, 130 18;
+                               M 130 18 Q 130 20, 130 18;
+                               M 130 18 Q 156 20 175 30;
+                               M 130 18 Q 175 20, 200 48;
+                               M 130 18 Q 175 20, 200 48;"
+                      keytimes="0.0,0.65,0.7,0.85,1"/>
+            </path>
+          </g>
         </g>
       </g>
     </g>
-    <g class="globe" transform-origin="126 126">
+    <g class="globe" transform="translate(-126, -126)">
       <circle id="globe" class="stroke" cx="126" cy="126" r="90" />
-      <line fill="none" class="stroke" transform-origin="126 126" x1="40" y1="126" x2="214" y2="126"></line>
-      <line fill="none" class="stroke" transform-origin="126 126" x1="126" y1="40" x2="126" y2="212"></line>
-      <circle id="bling" class="stroke" transform-origin="126 126" cx="126" cy="126" r="90"/>
-      <path class="stroke globeLines curveA rot0" transform-origin="126 126" d="M70 54 Q126 15, 180 54"/>
-      <path class="stroke globeLines curveA rot180" transform-origin="126 126" d="M70 54 Q126 15, 180 54"/>
-      <path class="stroke globeLines curveB rot90" transform-origin="126 126" d="M70 54 Q126 15, 180 54"/>
-      <path class="stroke globeLines curveB rot270" transform-origin="126 126" d="M70 54 Q126 15, 180 54"/>
+
+      <g transform="translate(126, 126)">
+        <path class="stroke globeLines curveA rot0" d="M70 54 Q126 15, 180 54">
+          <animate attributeName="d" attributeType="XML" dur="2s" begin="0.75s" values="M70 54 Q126 15, 180 54;  M55 65 Q126 100 195 65;  M55 65 Q126 100 195 65;  M70 54 Q126 15, 180 54;" keytimes="0,0.2,0.8,1" repeatCount="1"/>
+        </path>
+        <path class="stroke globeLines curveA rot180" d="M70 54 Q126 15, 180 54">
+          <animate attributeName="d" attributeType="XML" dur="2s" begin="0.75s" values="M70 54 Q126 15, 180 54;  M55 65 Q126 100 195 65;  M55 65 Q126 100 195 65;  M70 54 Q126 15, 180 54;" keytimes="0,0.2,0.8,1" repeatCount="1"/>
+        </path>
+        <path class="stroke globeLines curveB rot90" d="M70 54 Q126 15, 180 54">
+          <animate attributeName="d" attributeType="XML" dur="2s" begin="0.75s" values="M40 126 Q126 126, 212 126;  M40 110 Q126 55, 215 110;  M40 110 Q126 55, 215 110;  M70 54 Q126 15, 180 54;" keytimes="0,0.2,0.8,1" repeatCount="1"/>
+        </path>
+        <path class="stroke globeLines curveB rot270" d="M70 54 Q126 15, 180 54">
+          <animate attributeName="d" attributeType="XML" dur="2s" begin="0.75s" values="M40 126 Q126 126, 212 126;  M40 110 Q126 55, 215 110;  M40 110 Q126 55, 215 110;  M70 54 Q126 15, 180 54;" keytimes="0,0.2,0.8,1" repeatCount="1"/>
+        </path>
+      </g>
     </g>
+
+    <circle id="bling" class="stroke" cx="90" cy="90" r="90" />
+      <g class="globeCross"  transform="translate(-126, -126)">
+        <line class="stroke" x1="40" y1="126" x2="214" y2="126"></line>
+        <line class="stroke" x1="126" y1="40" x2="126" y2="212"></line>
+      </g>
+
   </g>
 </svg>
