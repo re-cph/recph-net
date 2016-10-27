@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+  <title>Heartthrob</title>
+  <link rel="icon" type="image/svg" href="throbber.svg">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TimelineMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/AttrPlugin.min.js"></script>
+  <script src="tweenmax-min.js"></script>
+  <style>
+    .svgContainer-1 {
+      width: 100px;
+      height: 100px;
+    }
+    .svgContainer-2 {
+      width: 200px;
+      height: 200px;
+    }
+    .svgContainer-3 {
+      width: 300px;
+      height: 300px;
+    }
+    .svgContainer-1 svg .fill {fill: red;}
+    .svgContainer-1 svg .stroke {stroke:red;}
+       svg .fill {
+     fill: #787878;
+     stroke: none
+   }
+   textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+   }
+  </style>
+</head>
+<body onload="startGW_SVG()">
+  <div style="width: 100%; text-align: center; font-family: helvetica, arial, sans-serif">
+    <h1>Re: ønsker jer tillykke med "Fødselsdagen"</h1>
+    <div style="margin:0 auto;display:table;">
+      <div class="svgContainer-3" style="float: left;">
+        <svg viewbox="0 0 252 252" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <style>
+            /* <![CDATA[ */
+svg .stroke {fill: none;stroke: #787878;stroke-width:12px} svg line.stroke {stroke-width:4px;}svg .contrail,svg .globeLines {stroke-width:3px}svg #bling {stroke-dasharray:17px 40px;stroke-width:20px}svg .heart {stroke-width:6;}
+            /* ]]> */
+          </style>
+          <desc>A throbber for Goodwings</desc>
+          <title>Goodwings Throbber</title>
+
+          <g class="revealHeart">
+            <path class="heart stroke" d=" M 25,50 L 5,30  C 5,30 -5,20 5,10  C 15,0 25,10 25,10  C 25,10 35,0 45,10  C 55,20 45,30 45,30  C 45,30 25,50 25,50 z"/>
+          </g>
+
+          <g class="allPlanesSpeedUp">
+            <g class="allPlanesRotate">
+              <g class="planesFirst">
+
+                <g class="plane1 north">
+                  <path class="plane fill" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"/>
+                  <path class="stroke contrail" d="M 130 18 Q 130 20, 130 18"/>
+                </g>
+
+                <g class="plane2 south">
+                  <path class="plane fill" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"/>
+                  <path class="stroke contrail" d="M 130 18 Q 130 20, 130 18"/>
+                </g>
+              </g>
+
+
+              <!-- <g class="planesSecond"> -->
+
+                <g class="plane3 east">
+                  <path class="plane fill" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"/>
+                  <path class="stroke contrail" d="M 130 18 Q 130 20, 130 18"/>
+                </g>
+
+                <g class="plane4 west">
+                  <path class="plane fill" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"/>
+                  <path class="stroke contrail" d="M 130 18 Q 130 20, 130 18"/>
+                </g>
+              <!-- </g> -->
+            </g>
+          </g>
+          <g class="globe">
+            <circle id="globe" class="stroke" cx="0" cy="0" r="90" />
+            <g class="globeCross">
+              <line class="stroke" x1="40" y1="126" x2="214" y2="126"></line>
+              <line class="stroke" x1="126" y1="40" x2="126" y2="212"></line>
+            </g>
+            <circle id="bling" class="stroke" cx="0" cy="0" r="90" />
+          </g>
+
+          <g class="lines">
+            <path class="stroke globeLines curveA north" d="M70 54 Q126 15, 180 54"/>
+            <path class="stroke globeLines curveA south" d="M70 54 Q126 15, 180 54"/>
+            <path class="stroke globeLines curveB east" d="M70 54 Q126 15, 180 54"/>
+            <path class="stroke globeLines curveB west" d="M70 54 Q126 15, 180 54" />
+          </g>
+
+        </svg>
+      </div>
+    </div>
+  </div>
+<div>
+  <label><a href="http://greensock.com/timelinemax">TweenTimelineMax</a> script og dependencies</label>
+  <textarea>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TimelineMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/AttrPlugin.min.js"></script>
+  </textarea>
+</div>
+
+<div>
+  <label>Animationsscript ( kør med startGW_SVG() )</label>
+  <textarea>
+function startGW_SVG(){setup.to(".globeCross",0,{transformOrigin:"50% 50%",x:-126,y:-126}).to(".lines",0,{transformOrigin:"50% 50%",x:0,y:82}).to(".globeLines.north",0,{transformOrigin:"50% 50%",y:-82}).to(".globeLines.south",0,{transformOrigin:"50% 50%",y:82}).to(".globeLines.east",0,{transformOrigin:"50% 50%",x:82}).to(".globeLines.west",0,{transformOrigin:"50% 50%",x:-82}).to(".transformer",0,{x:126,y:126}).to(".throbber",0,{x:-126,y:-126}).to(".contrail",0,{y:-5,transformOrigin:"50% 50%",opacity:.5}).to(".heart",0,{transformOrigin:"50% 50%"}).to(".plane1",0,{y:-120,x:-15}).to(".plane2",0,{y:120,x:15}).to(".plane3",0,{x:120,y:-15}).to(".plane4",0,{x:-120,y:15}).to(".north",0,{rotation:0}).to(".east",0,{rotation:90}).to(".south",0,{rotation:180}).to(".west",0,{rotation:270}),globe.to(".globe",0,{scale:.2,rotation:45,x:126,y:126,transformOrigin:"50% 50%"}).to(".globe",.9,{scale:1,rotation:0,ease:Power1.easeInOut}),lines.to(".lines",0,{scale:.2,rotation:45,y:82,transformOrigin:"50% 50%"}).to(".lines",.9,{scale:1,rotation:0,ease:Power1.easeInOut}),cross.to(".globeCross",0,{scale:1}).to(".globeCross",.3,{scale:0}),revealHeart.to(".revealHeart",0,{scale:0,x:101,y:101,transformOrigin:"50% 50%"}).to(".revealHeart",2.904,{scale:0}).to(".revealHeart",.33,{scale:1.1}).to(".revealHeart",.066,{scale:1,ease:Linear.easeNone}),bling.to("#bling",0,{scale:0,opacity:1,x:0,y:0,transformOrigin:"50% 50%"}).to("#bling",2.5,{scale:0,opacity:1}).to("#bling",.1,{scale:.25,opacity:.3}).to("#bling",.1,{scale:.35,opacity:0}),planesRotate.to(".allPlanesRotate",0,{x:14,y:126,rotation:"20",transformOrigin:"50% 50%"}).to(".allPlanesRotate",8,{rotation:"-340",transformOrigin:"50% 50%",ease:Linear.easeNone}),revealPlanes.to(".allPlanesRotate",0,{scale:.8,opacity:0,ease:Linear.easeNone}).to(".allPlanesRotate",.25,{scale:.9,opacity:1,ease:Linear.easeNone}).to(".allPlanesRotate",.25,{scale:1,ease:Linear.easeNone}),speedUpPlanes.to(".allPlanesSpeedUp",0,{rotation:360,transformOrigin:"50% 50%"}).to(".allPlanesSpeedUp",.5,{rotation:288}).to(".allPlanesSpeedUp",1.5,{rotation:288}).to(".allPlanesSpeedUp",.5,{rotation:216}).to(".allPlanesSpeedUp",1.5,{rotation:216}).to(".allPlanesSpeedUp",.5,{rotation:144}).to(".allPlanesSpeedUp",1.5,{rotation:144}).to(".allPlanesSpeedUp",.5,{rotation:72}).to(".allPlanesSpeedUp",1.5,{rotation:72}).to(".allPlanesSpeedUp",.5,{rotation:0}).to(".allPlanesSpeedUp",1.5,{rotation:0}),heartbeat.to(".heart",0,{scale:1.9,x:0,y:0,opacity:1,transformOrigin:"50% 50%",ease:Linear.easeNone}).to(".heart",.3,{scale:2.2}).to(".heart",.3,{scale:1.9}).to(".heart",.3,{scale:2}).to(".heart",.4,{scale:1.9}).to(".heart",.7,{scale:1.9}),contrailA.to(".north .contrail, .south .contrail",0,{attr:{d:contrailMorphA[0]},ease:Linear.easeNone}).to(".north .contrail, .south .contrail",2.5,{attr:{d:contrailMorphA[1]},ease:Linear.easeNone}).to(".north .contrail, .south .contrail",2.5,{attr:{d:contrailMorphA[2]},ease:Linear.easeNone}),contrailB.to(".east .contrail, .west .contrail",0,{attr:{d:contrailMorphB[0]},ease:Linear.easeNone}).to(".east .contrail, .west .contrail",2,{attr:{d:contrailMorphB[1]},ease:Linear.easeNone}).to(".east .contrail, .west .contrail",2,{attr:{d:contrailMorphB[2]},ease:Linear.easeNone}),globeLinesA.to(".globeLines.curveA",0,{attr:{d:globeLinesMorphA[0]},transformOrigin:"50% 50%"}).to(".globeLines.curveA",.5,{attr:{d:globeLinesMorphA[1]}}).to(".globeLines.curveA",.5,{attr:{d:globeLinesMorphA[2]}}).to(".globeLines.curveA",.5,{attr:{d:globeLinesMorphA[3]},ease:Linear.easeNone}),globeLinesB.to(".globeLines.curveB",0,{attr:{d:globeLinesMorphB[0]},transformOrigin:"50% 50%"}).to(".globeLines.curveB",.5,{attr:{d:globeLinesMorphB[1]}}).to(".globeLines.curveB",.5,{attr:{d:globeLinesMorphB[2]}}).to(".globeLines.curveB",.5,{attr:{d:globeLinesMorphB[3]},ease:Linear.easeNone})}var setup=new TimelineMax,heartbeat=new TimelineMax({repeat:-1,delay:6.5}),planesRotate=new TimelineMax({repeat:-1}),speedUpPlanes=new TimelineMax({repeat:-1,delay:6.5}),globe=new TimelineMax,lines=new TimelineMax,cross=new TimelineMax({delay:2.2}),bling=new TimelineMax,revealHeart=new TimelineMax,revealPlanes=new TimelineMax({delay:4}),contrailA=new TimelineMax({delay:4}),contrailB=new TimelineMax({delay:4}),globeLinesA=new TimelineMax({delay:.75}),globeLinesB=new TimelineMax({delay:.75}),contrailMorphA=["M 130 18 Q 130 20, 130 18","M 130 18 Q 156 20 175 30","M 130 18 Q 175 20, 200 48"];contrailMorphB=["M 130 18 Q 130 20, 130 18","M 130 18 Q 156 20 175 30","M 130 18 Q 175 20, 200 48"],globeLinesMorphA=["M70 54 Q126 15, 180 54","M55 65 Q126 100 195 65","M55 65 Q126 100 195 65","M70 54 Q126 15, 180 54"],globeLinesMorphB=["M40 126 Q126 126, 212 126","M40 110 Q126 55, 215 110","M40 110 Q126 55, 215 110","M70 54 Q126 15, 180 54"];
+  </textarea>
+</div>
+<div>
+  <label>SVG</label>
+  <textarea>
+<svg viewbox="0 0 252 252" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><style>/*<![CDATA[ */svg .stroke{fill:none;stroke:#787878;stroke-width:12px}svg line.stroke{stroke-width:4px;}svg .contrail,svg .globeLines{stroke-width:3px}svg #bling{stroke-dasharray:17px 40px;stroke-width:20px}svg .heart{stroke-width:6;}/*]]> */ </style><desc>A throbber for Goodwings</desc><title>Goodwings Throbber</title><g class="revealHeart"><path class="heart stroke" d=" M 25,50 L 5,30 C 5,30 -5,20 5,10 C 15,0 25,10 25,10 C 25,10 35,0 45,10 C 55,20 45,30 45,30 C 45,30 25,50 25,50 z"/></g><g class="allPlanesSpeedUp"><g class="allPlanesRotate"><g class="planesFirst"><g class="plane1 north"><path class="plane fill" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"/><path class="stroke contrail" d="M 130 18 Q 130 20, 130 18"/></g><g class="plane2 south"><path class="plane fill" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"/><path class="stroke contrail" d="M 130 18 Q 130 20, 130 18"/></g></g><g class="plane3 east"><path class="plane fill" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"/><path class="stroke contrail" d="M 130 18 Q 130 20, 130 18"/></g><g class="plane4 west"><path class="plane fill" d="M122,10 L114,10 C114,10 112,10 112,13 C112,16 114,16 114,16 L123,16 L137,16 L141,9 C141,9 142,7 141,6 C139,5 138,7 138,7 L136,10 L130,10 L134,3 C134,3 135,0 133,0 C130,0 129,2 129,2"/><path class="stroke contrail" d="M 130 18 Q 130 20, 130 18"/></g></g></g><g class="globe"><circle id="globe" class="stroke" cx="0" cy="0" r="90"/><g class="globeCross"><line class="stroke" x1="40" y1="126" x2="214" y2="126"></line><line class="stroke" x1="126" y1="40" x2="126" y2="212"></line></g><circle id="bling" class="stroke" cx="0" cy="0" r="90"/></g><g class="lines"><path class="stroke globeLines curveA north" d="M70 54 Q126 15, 180 54"/><path class="stroke globeLines curveA south" d="M70 54 Q126 15, 180 54"/><path class="stroke globeLines curveB east" d="M70 54 Q126 15, 180 54"/><path class="stroke globeLines curveB west" d="M70 54 Q126 15, 180 54"/></g></svg>
+  </textarea>
+</div>
+
+</body>
+</html>
