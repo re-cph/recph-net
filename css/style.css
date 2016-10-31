@@ -59,6 +59,9 @@ a:hover {
 	text-decoration: none;
 	color: #333;
 }
+a.white:hover{
+   color: #fff; 
+}
 a:focus {
 	outline: none;
 	color: #999999;
