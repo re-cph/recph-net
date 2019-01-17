@@ -157,28 +157,30 @@
 				//Removing the auto-adjust on scroll
 				self.unbindInterval();
 				
+				// Not working in newer versions of Chrome
+
 				//Scroll to the correct position
-				$.scrollTo(newLoc, self.config.scrollSpeed, {
-					axis: 'y',
-					easing: self.config.easing,
-					offset: {
-						top: -self.config.scrollOffset
-					},
-					onAfter: function() {
-						//Do we need to change the hash?
-						if(self.config.changeHash) {
-							window.location.hash = newLoc;
-						}
+				// $.scrollTo(newLoc, self.config.scrollSpeed, {
+				// 	axis: 'y',
+				// 	easing: self.config.easing,
+				// 	offset: {
+				// 		top: -self.config.scrollOffset
+				// 	},
+				// 	onAfter: function() {
+				// 		//Do we need to change the hash?
+				// 		if(self.config.changeHash) {
+				// 			window.location.hash = newLoc;
+				// 		}
 						
-						//Add the auto-adjust on scroll back in
-						self.bindInterval();
+				// 		//Add the auto-adjust on scroll back in
+				// 		self.bindInterval();
 						
-						//End callback
-						if(self.config.end) {
-							self.config.end();
-						}
-					}
-				});
+				// 		//End callback
+				// 		if(self.config.end) {
+				// 			self.config.end();
+				// 		}
+				// 	}
+				// });
 			}
 
 			e.preventDefault();
