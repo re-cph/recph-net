@@ -1093,6 +1093,35 @@ input:focus, textarea:focus {
     text-transform: uppercase;
 }
 .pagination > li > a, .pagination > li > span{color:inherit;}
+
+/* Landing pages */
+.fordele ul li{
+    list-style-type: disc;
+    margin-left:20px; 
+}
+.fordele ul li p,
+.fordele h3,
+.lov p,
+.lov h3{
+    text-align: left;
+}
+.fordele h3,
+.lov h3{
+    margin: 20px 0 15px 0;
+}
+.lov h3{
+    margin-top: 0;
+    color: white;
+}
+
+.lov p{
+    color: white;
+}
+.lov{
+    padding: 0 20px;
+    background-color: #165d7a;
+}
+
 /*-----------------------------media queries-----------------------------------*/
 @media (min-width:768px) and (max-width:979px) {
 .team-spacing{height:100px;}
