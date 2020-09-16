@@ -858,6 +858,23 @@ input:focus, textarea:focus {
 #footer p {
     font-size: 13px;
 }
+
+#footer p a{
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-navigation{
+    list-style-type: none;
+}
+.footer-navigation li a{
+    text-decoration: underline;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+}
 /*------------------BLOG SECTION------------------------------------*/
 .blog-page .header {
     background: none repeat scroll 0 0 #1f1f1f;
