@@ -9,69 +9,31 @@ layout: default
 <div id="home">
   <div class="slider home-slider clearfix" data-auto-play="8000">
 
-    <div class="slide img-bg clearfix" data-background="images/slider/keyboard-2.jpg">
+    <div class="slide img-bg clearfix" data-background="images/slider/re-owl.png">
       <div class="slider-mask"></div>
-      <div class="caption-box">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div class="liner"></div>
-              <h3>Meget mere end hjemmesider</h3>
-              <p>
-                Digital samarbejdspartner med fokus på<br><br>
-                <i>
-                Engagement &bull;
-                Forståelse &bull;
-                Kvalitet
-                </i>
-              </p>
-              <div class="liner"></div>
-            </div><!--/.col-md-8-->
-          </div><!--/.row-->
-        </div><!--/.container-->
-      </div><!--/.caption-box-->
+        <div class="caption-box">
+          <div class="container">
+            <h1>Dyb digital indsigt</h1>
+          </div>
+        </div>
     </div><!--/.slider1-->
 
-    <div class="slide img-bg clearfix" data-background="images/slider/mahatma-gandhi-highres.jpg">
+    <div class="slide img-bg clearfix" data-background="images/slider/re-flower.png">
       <div class="slider-mask"></div>
       <div class="caption-box">
         <div class="container">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-              <div class="liner"></div>
-              <h3>Ærlig nærværende rådgivning</h3>
-              <p>
-                <i>
-                  A "No" uttered from the deepest conviction <br>
-                  is better than a "Yes" <br>
-                  merely uttered to please...
-                </i>
-              </p>
-              <div class="liner"></div>
-            </div><!--/.col-md-8-->
-          </div><!--/.row-->
+          <h1>Solide visionære løsninger</h1>
         </div><!--/.container-->
       </div><!--/.caption-box-->
     </div><!--/.slider2-->
 
 
-    <div class="slide img-bg clearfix" data-background="images/slider/bus.jpg">
+    <div class="slide img-bg clearfix" data-background="images/slider/re-eye.png">
       <div class="slider-mask"></div>
       <div class="caption-box">
         <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div class="liner"></div>
-              <h3>Vi sidder<br>forrest i bussen</h3>
-              <p>
-                Vi har dyb teknisk indsigt<br>
-                og leverer løsninger<br>
-                af højeste kvalitet.
-
-              </p>
-              <div class="liner"></div>
-            </div><!--/.col-md-8-->
-          </div><!--/.row-->
+          <h1>Passionerede seniorkonsulenter</h1>
+          <h3 class="mobil" style="display:none;">Drevet af passion</h3>    
         </div><!--/.container-->
       </div><!--/.caption-box-->
     </div><!--/.slider2-->
@@ -718,5 +680,22 @@ layout: default
 // r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 // a.appendChild(r);
 // })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
 </script>
 <!--MAP MARKER CONTENT END-->

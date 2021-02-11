@@ -28,9 +28,9 @@ MEDIA QUERIES
 ------------------------------------------------------------*/
 
 .logo{
-    margin-top:28px;
+    margin-top: 28px;
     width: 80px;
-    }
+}
 
 /*-----------------------------------------GENERAL SECTION--------------------------------------------------*/
 body, html {
@@ -46,6 +46,23 @@ body {
 [class^="icon-"]:before, [class*=" icon-"]:before {
 	cursor: inherit;
 }
+
+@font-face {
+  font-family: ddin;
+  src: url(/fonts/D-DIN.woff);
+}
+@font-face {
+  font-family: ddin;
+  src: url(/fonts/D-DIN-Bold.woff);
+  font-weight: bold;
+}
+@font-face {
+  font-family: ddin;
+  src: url(/fonts/D-DIN-Italic.woff);
+  font-weight: italic;
+}
+
+
 a {
 	color: #999;
 	text-decoration: none;
@@ -1159,3 +1176,28 @@ input:focus, textarea:focus {
 }
 }
 
+/*-- NEW HEADER --*/
+.logo{
+    width: 50px;
+    float: left;
+    margin-left: 2rem;
+}
+
+#home h1{
+    font-size: 10em;
+    float:left;
+    font-family: ddin;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    width: 60%;
+}
+#home .container{
+    margin-left: 0; 
+    margin-right: 0;
+    width: 100%;
+}
+@media (max-width: 767px) {
+    #home h1{ font-size: 5rem;}
+}
