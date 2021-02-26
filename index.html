@@ -7,14 +7,15 @@ layout: default
 
     <!--HOME START-->
 <div id="home">
-  <div class="slider home-slider clearfix" data-auto-play="8000">
+  <div class="slider home-slider clearfix" data-auto-play="5000" data-autoheight="false">
 
     <div class="slide img-bg clearfix" data-background="images/slider/re-owl.png">
       <div class="slider-mask"></div>
         <div class="caption-box">
           <div class="container">
-            <h1>Dyb digital indsigt</h1>
+            <h1>Dyb<br>digital<br>indsigt</h1>
           </div>
+          {% include top-logos.html %}
         </div>
     </div><!--/.slider1-->
 
@@ -22,21 +23,22 @@ layout: default
       <div class="slider-mask"></div>
       <div class="caption-box">
         <div class="container">
-          <h1>Solide visionære løsninger</h1>
+          <h1>Solide<br>visionære<br>løsninger</h1>
         </div><!--/.container-->
+        {% include top-logos.html %}
       </div><!--/.caption-box-->
     </div><!--/.slider2-->
-
 
     <div class="slide img-bg clearfix" data-background="images/slider/re-eye.png">
       <div class="slider-mask"></div>
       <div class="caption-box">
         <div class="container">
-          <h1>Passionerede seniorkonsulenter</h1>
-          <h3 class="mobil" style="display:none;">Drevet af passion</h3>    
+          <h1 class="smaller-on-mobile">Passionerede<br>erfarne<br>konsulenter</h1>
         </div><!--/.container-->
+        {% include top-logos.html %}
       </div><!--/.caption-box-->
     </div><!--/.slider2-->
+
 
   </div><!--/.slider-->
 </div><!--/home-->
@@ -46,11 +48,11 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-8 align-center col-md-offset-2">
-        <h2 class="head-title">Om os</h2>
-        <p class="sub-title">Hvem er Re:?</p>
+        <p class="sub-title">Om RE:</p>
+        <h2 class="head-title">Ildsjæle</h2>
         <div class="liner"></div>
         <p>
-          Vi er tre ildsjæle som elsker internettet, og alle de små dele som udgør det.<br>
+          Vi elsker internettet og de dele der udgør det.<br>
           <span class="break-mobile-only"></span>
           Vores arbejde er vores lidenskab, og vi lever og ånder for at skabe gode brugbare løsninger.
         </p>
@@ -96,16 +98,15 @@ layout: default
         <div class="team-inner clearfix">
           <div class="col-md-5">
             <div class="team-spacing"></div>
-            <h3 class="small-title">Vores Team</h3>
-            <p class="team-post">Techies og rådgivere
-              <br>
-              i ophøjet samhørighed
+            <h2 class="head-title">Tech, design & rådgivning</h2>
+            <p class="team-post">
+              ...i ophøjet samhørighed
             </p>
             <p>
-              Vi er stolte af at have de bedste programmører i København på vores hold.
+              Vi er stolte af at have de bedste programmører, UX'ere og designere i København på vores hold.
             </p>
             <p>
-              Samtidig kan vi tilbyde stærk digital rådgivning, med gode kommunikative evner og dyb teknisk indsigt.
+              Samtidig kan vi tilbyde stærk digital rådgivning med god forretningsmæssig indsigt.
             </p>
             <div class="spacing40 clearboth"></div>
           </div><!--/.col-md-4-->
@@ -156,8 +157,8 @@ layout: default
   <div class="bg-mask"></div>
   <div class="para-img"></div>
   <div class="container big-text">
-    <p>Vesterbro</p>
-    <h3>Vi holder til i Kødbyen i hjertet af Vesterbro. Hver dag suger vi inspiration fra omgivelserne og de mennesker vi er iblandt.</h3>
+    <h3>Vesterbro</h3>
+    <p>Vi holder til i Kødbyen i hjertet af Vesterbro. Hver dag suger vi inspiration fra omgivelserne og de mennesker vi er iblandt.</p>
     <div class="liner"></div>
     <div class="clearboth"></div><i class="fa fa-heart-o"></i>
   </div><!--/.big-text-->
@@ -170,14 +171,12 @@ layout: default
 <div id="services" class="content black-bg">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 align-center col-md-offset-2">
-        <h2 class="head-title">Re: tilbyder</h2>
-        <p class="sub-title">Vores ydelser</p>
+      <div class="col-md-6 align-center col-md-offset-3">
+        <p class="sub-title">RE: tilbyder</p>
+        <h2 class="head-title">Vores ydelser</h2>
         <div class="liner"></div>
         <p>
-          Vores udgangspunkt når vi starter hos dig er, at vi vil levere<i><br/>
-          Ærlig nærværende digital rådgivning.</i></p>
-         <p>Vi vil forstå dine behov før vi foreslår en løsning.</p>
+          Vi leverer <b>ærlig nærværende digital rådgivning, og vi gør en ære i ikke at foreslå en løsning før vi til fulde forstår dine behov.</p>
         <div class="spacing40"></div>
       </div><!--/.col-md-8-->
     </div><!--/.row-->
@@ -271,6 +270,7 @@ layout: default
       </div>
       -->
 
+
       <div class="clearfix visible-sm-block"></div>
 
       <div class="col-md-4 col-sm-6">
@@ -322,12 +322,10 @@ layout: default
   <div class="big-ticker clearfix">
 
     <div class="container big-text">
-      <h3>Mikkel Larsen, Strategic Alliance Manager
-        <br>
-        <a class="white" target="_blank" href="https://www.if.dk/privat">If Skadeforsikring</a>
+      <h3>Mikkel Larsen, Strategic Alliance Manager, If Skadeforsikring
       </h3>
       <p>
-      Vi har samarbejdet med Re: i næsten et helt årti. 
+      Vi har samarbejdet med RE: i næsten et helt årti. 
       <br>
       Vi er meget tilfredse med sparringen, fleksibiliteten og de kreative løsninger, vi har udviklet sammen.
       </p>
@@ -367,7 +365,6 @@ layout: default
 
   </div><!--/.big-ticker-->
 </div><!--/.big-background-->
-
 
 
 <!--AJAX CONTENT HERE-->
@@ -597,9 +594,9 @@ layout: default
     <div class="container big-text">
       <h3>Peder Wuth, Louisiana Channel</h3>
       <p>
-      Re: kombinerer en stor faglig kompetence med ægte engagement og forståelse for kundens behov, både teknisk og forretningsmæssigt.
+      RE: kombinerer en stor faglig kompetence med ægte engagement og forståelse for kundens behov, både teknisk og forretningsmæssigt.
       <br><br>
-      Re: leverer mod- og medspil på de rette tidspunkter, så både process og produkt bliver bedst tænkeligt.
+      RE: leverer mod- og medspil på de rette tidspunkter, så både process og produkt bliver bedst tænkeligt.
       <br><br>
       Det er svært at  forestille sig nogen bedre partner, hvis målet er kvalitet.
       </p>
@@ -644,7 +641,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-8 align-center col-md-offset-2">
-        <h2 class="head-title">Re: kontakt</h2>
+        <h2 class="head-title">RE: kontakt</h2>
         <p>Vi kommer gerne forbi dit kontor til en uforpligtende snak.
         <div class="liner"></div>
         <p class="phone">
@@ -663,7 +660,7 @@ layout: default
 <div class="hidden map-content">
   <div class="box-map">
     <img src="images/maps.jpg" alt="">
-    <h3>Re: HQ</h3>
+    <h3>RE: HQ</h3>
     <p>Flæsketorvet 26-28 (1. sal)<br>1711 København V</p>
     <p><b>Tlf.:</b> +45 6084 8999</p>
     <p><b>Email:</b> {{ site.email }}</p>
@@ -680,22 +677,5 @@ layout: default
 // r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 // a.appendChild(r);
 // })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
 </script>
 <!--MAP MARKER CONTENT END-->
