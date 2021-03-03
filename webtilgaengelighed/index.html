@@ -4,7 +4,15 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-  {% include gtm-head.html %}
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TQ44HSB');</script>
+  <!-- End Google Tag Manager -->
+
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
@@ -64,7 +72,11 @@
 </head>
 
 <body>
-{% include gtm-body.html %}
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQ44HSB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- Analytics from ../_includes/analytics.html -->
  <script>
@@ -108,7 +120,7 @@
                     <ul class="navigation">
                         <li><a class="scroll" href="#why">Hvorfor webtilgængelighed?</a></li>
                         <li><a class="scroll" href="#pro">Process</a></li>
-                        <li><a href="https://www.re-cph.com">Om RE:</a></li>
+                        <li><a class="scroll" href="#about">Om RE:</a></li>
                         <li><a class="scroll" href="#contact">Kontakt</a></li>
                     </ul>
                 </div><!--/.menu-box-->
@@ -286,7 +298,7 @@
 
 <!-- Part 3: #Partners   -->
 
-<div class="pixfort_agency_14">
+<div id="about" class="pixfort_agency_14">
 <div class="logos_sect">
 	<div class="container">
 		<div class="sixteen columns">
@@ -384,11 +396,13 @@
             <div class="second_link">
               <span class="get_2_btn"><a class="slow_fade" href="/#contact">Kontakt os her</a></span>
             </div>
+
             <!-- <div class="four columns">
              <div class="second_link">
                 <span class="get_2_btn"><a class="slow_fade" href="tel:+4560848999">Ring 60848999</a></span>
               </div>
             </div> -->
+          
           <div class="four columns sm-hide">&nbsp;</div>
 
 	    </div>
@@ -424,7 +438,7 @@
       <div class="spacing40"></div>
       <navigation>
         <a href="/">Start</a>
-        <a href="/webtilgængelighed">Webtilgængelighed</a>
+        <a href="/webtilgaengelighed">Webtilgængelighed</a>
       </navigation>
     </div><!--/.container-->
 </footer><!--/footer-->
