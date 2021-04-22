@@ -1189,10 +1189,6 @@ input:focus, textarea:focus {
 }
 @media (max-width: 750px) {
     #home .logos .s-hide{ display: none;}
-    
-    #team-inner {
-      display: flex
-    }
 }
 
 @media (max-width: 767px) {
