@@ -58,18 +58,18 @@
 
 
     //slider team setting
-    $(".team-slider").owlCarousel({
-        navigation: false, // Hide next and prev buttons
-        slideSpeed: 300,
-        autoplay: true,
-		autoHeight: true,
-        pagination: true,
-        paginationSpeed: 300,
-        singleItem: true,
-        mouseDrag: false,
-        stopOnHover: true,
-        transitionStyle: "fade"
-    });
+    // $(".team-slider").owlCarousel({
+    //     navigation: false, // Hide next and prev buttons
+    //     slideSpeed: 300,
+    //     autoplay: true,
+		// autoHeight: true,
+    //     pagination: true,
+    //     paginationSpeed: 300,
+    //     singleItem: true,
+    //     mouseDrag: false,
+    //     stopOnHover: true,
+    //     transitionStyle: "fade"
+    // });
 
     // script prettyphoto
     $(document).ready(function () {

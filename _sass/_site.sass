@@ -98,6 +98,7 @@ span.break-mobile-only
   background: $blue
 
 #resDebug
+  height: 30px
   background: red
   @include media-max($screen-lg-min)
     background: green
@@ -105,3 +106,15 @@ span.break-mobile-only
     background: yellow
   @include media-max($screen-sm-min)
     background: orange
+
+.team-inner
+  display: flex
+  
+  @include media-max($screen-lg-min)
+    flex-direction: column-reverse
+    .team-elm-1
+      margin-bottom: 3rem
+    .team-elm-2
+      margin-bottom: 3rem
+
+

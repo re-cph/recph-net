@@ -400,7 +400,10 @@ ul, ol {
     margin-top:0.5em; 
 /*    font-family: ddin-bold;
 */}
-.team-spacing{height:200px;width:100%;}
+/* .team-spacing{
+  height:30px;
+  width:100%;
+} */
 #team .owl-pagination {
     height: 80px;
     margin-top: -80px;
@@ -1186,6 +1189,10 @@ input:focus, textarea:focus {
 }
 @media (max-width: 750px) {
     #home .logos .s-hide{ display: none;}
+    
+    #team-inner {
+      display: flex
+    }
 }
 
 @media (max-width: 767px) {
