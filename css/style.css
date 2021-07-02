@@ -1209,3 +1209,37 @@ input:focus, textarea:focus {
         font-size: 1.5em;
     }
 }
+
+@media (min-width: 650px) {
+    .fancy-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+}
+
+.fancy-grid:before,
+.fancy-grid:after {
+    content: unset;
+}
+
+.fancy-grid > * {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.fancy-grid > * > :first-child {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fancy-grid > * > :last-child {
+    margin-bottom: 40px;
+} 
+
+.fancy-grid .icons {
+    display: flex;
+    align-items: center;
+}
