@@ -1210,22 +1210,32 @@ input:focus, textarea:focus {
     }
 }
 
+@media (max-width: 650px) {
+  .fancy-grid > * {
+      margin-top: 8rem;
+  }
+
+  .fancy-grid > *:first-child {
+      margin-top: 0;
+  }
+}
+
 @media (min-width: 650px) {
     .fancy-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 5rem 10rem;
     }
+    
+    .fancy-grid > * {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
 }
 
 .fancy-grid:before,
 .fancy-grid:after {
     content: unset;
-}
-
-.fancy-grid > * {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
 }
 
 .fancy-grid > * > :first-child {
