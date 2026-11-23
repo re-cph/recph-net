@@ -1253,3 +1253,11 @@ input:focus, textarea:focus {
     display: flex;
     align-items: center;
 }
+/* AI-sektion: 2x2 gitter i stedet for 3+1 */
+@media (min-width: 650px) {
+    #ai-detail .fancy-grid {
+        max-width: 960px;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
