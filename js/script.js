@@ -170,6 +170,7 @@
 
     //google map load after all page finish
     $(window).bind("load", function () {
+        if (!(window.google && google.maps)) { return; } // map script not loaded
         $('#map_canvas').gmap({
             'center': '55.66767,12.55794',
             'zoom': 15,

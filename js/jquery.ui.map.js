@@ -337,7 +337,8 @@
 		},
 		
 		addEventListener: function(eventType, eventDataOrCallback, eventCallback) {
-			if ( google.maps && this[0] instanceof google.maps.MVCObject ) {
+			// Guard: fall back to normal jQuery events when Google Maps is not loaded
+			if ( window.google && google.maps && this[0] instanceof google.maps.MVCObject ) {
 				google.maps.event.addListener(this[0], eventType, eventDataOrCallback);
 			} else {
 				if (eventCallback) {
